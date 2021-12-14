@@ -1,0 +1,36 @@
+.ContactList {
+  margin: 0;
+  padding-left: 0;
+}
+
+.ContactItem {
+  display: flex;
+
+  align-items: center;
+}
+.ContactItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+.ContactData {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.ContactDelete {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+
+  /* font-size: 13px;
+  line-height: 29px; */
+  padding: 5px 7px;
+
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+}

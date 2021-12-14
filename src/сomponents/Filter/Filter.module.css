@@ -1,0 +1,17 @@
+.Label {
+}
+
+.Input {
+  display: block;
+  width: 400px;
+
+  padding: 5px;
+  margin-bottom: 20px;
+
+  color: #212529;
+  background-color: #fff;
+
+  border: 1px solid #d5d9d9;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
